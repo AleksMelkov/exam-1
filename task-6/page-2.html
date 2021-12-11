@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Проверка наличия трехзначного числа</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<div class="main-wrapper">
+    <aside>
+        <div class="aside-logo">
+            <img src="./assets/images/logo-left.png" alt="logo">
+        </div>
+        <ul class="aside-menu-list">
+            <li class="aside-menu-element">
+                <a href="./index.html">Главная</a>
+            </li>
+            <li class="aside-menu-element">
+                <a href="./page-1.html">Задание 1</a>
+            </li>
+            <li class="aside-menu-element active">
+                <a href="./page-2.html">Задание 2</a>
+            </li>
+            <li class="aside-menu-element">
+                <a href="./page-3.html">Задание 3</a>
+            </li>
+        </ul>
+        <footer>
+            <a href="../index.html">К заданиям</a>
+            <p>© Мельничкин Роман</p>
+        </footer>
+    </aside>
+    <main>
+        <h1>Проверка наличия трехзначного числа</h1>
+        <div class="main-content">
+            <div class="form-element">
+                <pre>
+    function isThreeDigitNumber(string) {
+        if (/\d{4}/g.test(string)) {
+            return false;
+        }
+        return /\d{3}/g.test(string)
+    }</pre>
+            </div>
+            <div class="form-element">
+                <label for="test-input">Тест</label>
+                <input type="text" id="test-input">
+                <button>Проверить</button>
+            </div>
+            <div class="form-element">
+                <p></p>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="./assets/script-2.js"></script>
+</body>
+</html>

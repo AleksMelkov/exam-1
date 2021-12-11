@@ -1,0 +1,35 @@
+body, html {
+    margin: 0;
+}
+html>* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main-wrapper {
+    width: 60%;
+    text-align: center;
+}
+h1 {
+    padding-top: 40px;
+}
+.list-wrapper {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.list-wrapper li {
+    padding-bottom: 20px;
+}
+.list-wrapper li a {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-decoration: none;
+}
+.list-wrapper li a:hover {
+    text-decoration: underline;
+}
