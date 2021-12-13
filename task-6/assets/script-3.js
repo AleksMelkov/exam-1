@@ -3,6 +3,6 @@ function noEmpty(arr) {
         return 0;
     }
     return arr.filter((item) => {
-        return item === '';
+        return item !== '';
     }).length;
 }
